@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "EventMap Toronto",
+    "slug": "eventmap-toronto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "EventMap accesses your photos to select event cover images.",
+          "cameraPermission": "EventMap uses your camera to take cover photos for events."
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "EventMap uses your location to show nearby events on the map.",
+        "NSCameraUsageDescription": "EventMap uses your camera to take cover photos for events.",
+        "NSPhotoLibraryUsageDescription": "EventMap accesses your photo library to select cover images for events."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR_GOOGLE_MAPS_API_KEY_HERE"
+        }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0a579785-9d45-41c1-b570-a39a4020910d"
+      }
+    },
+    "owner": "snbmanagement"
+  }
+}
