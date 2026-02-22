@@ -14,7 +14,8 @@
           "photosPermission": "EventMap accesses your photos to select event cover images.",
           "cameraPermission": "EventMap uses your camera to take cover photos for events."
         }
-      ]
+      ],
+      "@react-native-community/datetimepicker"
     ],
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -30,6 +31,7 @@
       }
     },
     "android": {
+      "package": "com.snbmanagement.eventmaptoronto",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -52,6 +54,12 @@
         "projectId": "0a579785-9d45-41c1-b570-a39a4020910d"
       }
     },
-    "owner": "snbmanagement"
+    "owner": "snbmanagement",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0a579785-9d45-41c1-b570-a39a4020910d"
+    }
   }
 }
