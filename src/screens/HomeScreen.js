@@ -4,7 +4,7 @@ import {
   Keyboard, ActivityIndicator, RefreshControl,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import BottomSheet, { BottomSheetFlatList } from '@gorhom/bottom-sheet';
+import BottomSheet, { BottomSheetFlatList } from '../components/BottomSheetWrapper';
 import { Ionicons } from '@expo/vector-icons';
 import { COLORS, SPACING, RADIUS, FONT, SHADOWS } from '../constants/theme';
 import EventCard from '../components/EventCard';

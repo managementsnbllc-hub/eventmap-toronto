@@ -47,7 +47,14 @@
       ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single",
+      "name": "EventMap Toronto",
+      "shortName": "EventMap",
+      "description": "Discover events happening around Toronto",
+      "themeColor": "#007AFF",
+      "backgroundColor": "#ffffff"
     },
     "extra": {
       "eas": {
